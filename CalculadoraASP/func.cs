@@ -24,7 +24,7 @@ namespace Calc.Func
         }
         public static void Visor(int tmp)
         {
-            Val.Variaveis.Visor.Equals(Val.Variaveis.Visor + tmp);
+            Val.Variaveis.Visor = Val.Variaveis.Visor + tmp;
         }
     }
 }
